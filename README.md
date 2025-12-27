@@ -6,7 +6,6 @@ This project leverages LangChain to orchestrate document retrieval and large lan
 
 The goal of this project is to demonstrate a practical and scalable implementation of RAG pipelines for real-world question-answering systems.
 
----
 
 ## How It Works (RAG Pipeline)
 
@@ -15,7 +14,7 @@ The goal of this project is to demonstrate a practical and scalable implementati
 3. Retrieved context is passed to a language model
 4. The model generates a response grounded in the retrieved data
 
----
+
 
 ## Tech Stack
 
@@ -28,7 +27,7 @@ The goal of this project is to demonstrate a practical and scalable implementati
 - **Backend (optional):** FastAPI / Flask
 - **Version Control:** Git & GitHub
 
----
+
 
 ## Use Cases
 
