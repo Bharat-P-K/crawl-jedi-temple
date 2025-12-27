@@ -1,0 +1,8 @@
+ Details related to OS libaray os.getcwd(): Returns the current working directory.
+os.chdir(path): Changes the current working directory to the specified path.
+os.mkdir(path): Creates a single directory named path.
+os.makedirs(path): Recursively creates directories, making intermediate-level directories if they are missing.
+os.rmdir(path): Removes a directory.
+os.remove(path): Deletes a file.
+os.rename(src, dst): Renames a file or directory from src to dst.
+os.listdir(path): Returns a list of the entries (files and directories) in the specified path.

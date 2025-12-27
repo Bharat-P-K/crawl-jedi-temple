@@ -1,0 +1,18 @@
+ ## Basic modules in Langchain : 
+1.Models (LLMs and Chat Models): These are integrated within provider-specific packages.
+python
+from langchain_openai import ChatOpenAI # For OpenAI chat models
+from langchain_community.llms import Ollama # Example for a local model provider like Ollama
+2. ###Prompts: For structuring user input and conversation history into a format the model can understand. These are typically accessed via langchain_core or re-exported from langchain.
+python
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, MessagesPlaceholder
+Output Parsers: To structure the raw output from the language model into a usable format (e.g., a simple string, JSON).
+python
+from langchain_core.output_parsers import StrOutputParser
+3. ###Chains/Runnables: The core components for combining logic. The most basic element is a "Runnable". The legacy LLMChain is in langchain-classic.
+python
+from langchain_core.runnables import RunnablePassthrough
+Agents and Tools: For building multi-step reasoning agents that can use external tools.
+python
+from langchain.agents import create_agent, AgentExecutor
+from langchain_core.tools import Tool
